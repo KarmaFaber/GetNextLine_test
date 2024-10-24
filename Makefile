@@ -1,5 +1,5 @@
 # Variables:
-NAME        := gnl_pruebas
+NAME        := gnl_test
 CC          := gcc
 CFLAGS      := -Wall -Wextra -Werror -D BUFFER_SIZE=8  # Definimos BUFFER_SIZE (cambios en la defensa)
 RM          := rm -rf
