@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/03 09:56:04 by mzolotar          #+#    #+#             */
-/*   Updated: 2024/10/25 11:26:23 by mzolotar         ###   ########.fr       */
+/*   Updated: 2024/10/25 11:34:28 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,7 +96,7 @@ int main (void)
     printf(ANSI_COLOR_MAGENTA "--------------------------\n"ANSI_COLOR_RESET);
 
     //13
-    printf(ANSI_COLOR_MAGENTA "----12_invalid_fd---\n"ANSI_COLOR_RESET);
+    printf(ANSI_COLOR_MAGENTA "----13_invalid_fd---\n"ANSI_COLOR_RESET);
     invalid_fd();
     printf(ANSI_COLOR_MAGENTA "--------------------------\n"ANSI_COLOR_RESET);
 

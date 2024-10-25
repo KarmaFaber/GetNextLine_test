@@ -1,7 +1,7 @@
 # Variables:
 NAME        := gnl_test
 CC          := gcc
-CFLAGS      := -Wall -Wextra -Werror -D BUFFER_SIZE=8  # Definimos BUFFER_SIZE (cambios en la defensa)
+CFLAGS      := -Wall -Wextra -Werror -D BUFFER_SIZE=1  # Definimos BUFFER_SIZE (cambios en la defensa)
 RM          := rm -rf
 VALGRIND    := valgrind --leak-check=full --show-leak-kinds=all -s
 #VALGRIND    := valgrind --leak-check=full --show-leak-kinds=all -s -q
