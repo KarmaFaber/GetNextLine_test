@@ -12,7 +12,8 @@ SRCS        := get_next_line.c get_next_line_utils.c
 TESTS_SRC   := main.c 1_test_text_own.c 2_test_1char.c 3_test_empty.c \
                4_test_lines_around_10.c 5_test_variable_nls.c 6_test_only_nl.c \
                7_test_giant_line.c 8_test_giant_line_nl.c 9_test_multiple_nl.c \
-               10_test_one_line_no_nl.c 11_test_read_error.c 12_test_fd_cero.c
+               10_test_one_line_no_nl.c 11_test_read_error.c 12_test_fd_cero.c \
+			   13_invalid_fd.c
 
 OBJS        := $(SRCS:.c=.o) $(TESTS_SRC:.c=.o)
 GNL_DIR     := ../

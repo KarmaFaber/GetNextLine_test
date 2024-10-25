@@ -23,5 +23,6 @@ void	test_giant_line(void);
 void	test_giant_line_nl(void);
 void	test_multiple_nl(void);
 void	test_fd_cero(void);
+void	invalid_fd(void);
 
 #endif
